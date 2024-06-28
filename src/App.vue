@@ -1,15 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="欢迎来到菜鸟教程！" />
+  <HelloWorld/>
+  <HomePage />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/HomePage.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,HomePage
   }
 }
 </script>
